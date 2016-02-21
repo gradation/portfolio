@@ -1,0 +1,23 @@
+html *{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	margin: 0 20%;
+}
+
+
+ul.stacked li{
+	display: block;
+}
+ul.fellover{
+	overflow: hidden;
+}
+ul.fellover li{
+	display: block;
+	float: left;
+	width: 20%;
+	padding: 0 2.5%;
+	background-color: #f00;
+}
